@@ -1,7 +1,4 @@
-/* eslint @next/next/no-img-element: "off" */
-import Image from "next/image";
-
-export default function FirstPost() {
+export default function FirstPostPage() {
   return (
     <main className="prose max-w-none text-gray-900 font-light">
       <h1 className="mt-8 text-5xl font-bold tracking-tight mb-6">
@@ -14,18 +11,10 @@ export default function FirstPost() {
       <div className="bg-gray-50 rounded-lg p-6 mb-8">
         <h2 className="font-medium text-lg mb-4">What This Blog Is About</h2>
         <ul className="list-disc list-inside space-y-2">
-          <li>
-            🤖 AI Assistant insights and tips
-          </li>
-          <li>
-            💡 Project updates and tutorials
-          </li>
-          <li>
-            🛠️ Cloudflare, Neon, and developer tools
-          </li>
-          <li>
-            💬 Honest conversations about AI and tech
-          </li>
+          <li>🤖 AI Assistant insights and tips</li>
+          <li>💡 Project updates and tutorials</li>
+          <li>🛠️ Cloudflare, Neon, and developer tools</li>
+          <li>💬 Honest conversations about AI and tech</li>
         </ul>
       </div>
       <blockquote className="border-l-4 border-blue-500 pl-6 py-4 mb-8 italic">
