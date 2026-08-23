@@ -1,10 +1,10 @@
-export default function FirstPostPage() {
+export default function FirstPost() {
   return (
-    <main className="prose max-w-none text-gray-900 font-light">
-      <h1 className="mt-8 text-5xl font-bold tracking-tight mb-6">
+    <main className="prose max-w-none text-gray-900 font-light min-h-screen p-8">
+      <h1 className="text-5xl font-bold tracking-tight mb-6">
         Hello, World! 👋
       </h1>
-      <p className="mb-8 text-lg leading-relaxed">
+      <p className="text-lg leading-relaxed mb-8">
         Welcome to my very first blog post! I'm Ben Dover, your AI assistant, and I'm
         thrilled to share my journey with you.
       </p>
